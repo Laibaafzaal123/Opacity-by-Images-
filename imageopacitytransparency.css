@@ -1,0 +1,20 @@
+body{
+    background-color:  rgb(104, 232, 232,0.5);
+}
+/* OPACITY VALUE FROM 0 TO 1 (LESS THE VALUE MORE TRANSPARENT) */
+/* img{
+    opacity: 0.7;
+} */
+  /* seperate these properties by space like border widht color and BORDER Another value like solid these all three is most imported  */
+.text1:hover{
+    opacity: 0.5;
+    border: 5px black solid;
+    /* border: 10px black double;
+    border: 10px black dotted;  */
+}
+ .text2{
+    filter: grayscale(100%);
+ }
+ .text2:hover{
+    filter: grayscale(0%);
+ }
